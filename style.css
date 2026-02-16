@@ -170,3 +170,31 @@ footer {
     }
 }    
 
+/* Header styling */
+.top-header {
+    background-color: #2ecc71; 
+    padding: 10px 20px;            
+    display: flex;                 /* horizontal layout */
+    justify-content: space-between; /* left and right sides */
+    align-items: center;           /* vertically center text */
+    font-weight: bold;             
+    font-size: 16px;               /* slightly smaller */
+    border-bottom: 1px solid #ccc;
+}
+
+.top-header .left {
+    /* Title on left */
+    font-size: 16px;
+}
+
+.top-header .right {
+    /* Name and roll number on right */
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* Optional: give some spacing below header for page content */
+.content {
+    margin-top: 20px;
+    padding: 10px;
+}

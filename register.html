@@ -1,45 +1,58 @@
-<link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-<header>BVRITH E-BOOK SYSTEM</header>
+<!-- Header bar -->
+<header class="top-header">
+    <div class="left">BVRITH E-BOOK SYSTEM</div>
+    <div class="right">Welcome, Harika P | Roll No: 24WH1A05C8</div>
+</header>
 
 <div class="container">
 
+  <!-- Sidebar -->
   <aside class="sidebar">
     <a href="register.html">Registration</a>
     <a href="login.html">Login</a>
   </aside>
 
+  <!-- Main content -->
   <main class="content">
     <div class="card">
       <h2>Create Account</h2>
       <br>
 
-      <form class="form-grid">
+      <form class="form-grid" onsubmit="event.preventDefault(); window.location.href='catalog.html';">
 
         <div>
           <label>Full Name</label>
-          <input type="text">
+          <input type="text" required>
         </div>
 
         <div>
           <label>Email</label>
-          <input type="email">
+          <input type="email" required>
         </div>
 
         <div>
           <label>Password</label>
-          <input type="password">
+          <input type="password" required>
         </div>
 
         <div>
           <label>Confirm Password</label>
-          <input type="password">
+          <input type="password" required>
         </div>
 
         <div>
           <label>Gender</label><br>
-          <input type="radio"> Male
-          <input type="radio"> Female
+          <input type="radio" name="gender"> Male
+          <input type="radio" name="gender"> Female
         </div>
 
         <div>
@@ -48,6 +61,8 @@
             <option>CSE</option>
             <option>AIML</option>
             <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
           </select>
         </div>
 
@@ -66,4 +81,10 @@
   </main>
 </div>
 
-<footer> 2026 BVRITH. All rights reserved.</footer>
+<!-- Footer -->
+<footer>
+    2026 BVRITH. All rights reserved.
+</footer>
+
+</body>
+</html>
