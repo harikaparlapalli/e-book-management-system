@@ -21,6 +21,7 @@
     <a href="login.html">Login</a>
   </aside>
 
+  
   <!-- Main content -->
   <main class="content">
     <div class="card">
@@ -34,6 +35,11 @@
           <input type="text" required>
         </div>
 
+        <div class="login-link">
+          Already have an account?
+          <a href="login.html">Login here</a>
+        </div>
+        
         <div>
           <label>Email</label>
           <input type="email" required>
@@ -49,10 +55,12 @@
           <input type="password" required>
         </div>
 
-        <div>
-          <label>Gender</label><br>
-          <input type="radio" name="gender"> Male
-          <input type="radio" name="gender"> Female
+        <div class="gender-field">
+          <label>Gender</label>
+          <div class="radio-group">
+            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+          </div>
         </div>
 
         <div>

@@ -1,13 +1,53 @@
+<!DOCTYPE html>
+<html>
 <head>
-    <header class="top-header">
-    <p>Harika Parlapalli| Roll No: 24WH1A05C8</p>
-</header>
+    <meta charset="UTF-8">
+    <title>Logout</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<link rel="stylesheet" href="css/style.css">
+<body>
 
-<div class="card" style="text-align:center;">
-    <h2> You have been logged out.</h2>
-    <br>
-    <button class="primary-btn">Login Again</button>
-</div>
+    <!-- Top Header -->
+    <header class="top-header">
+        <div class="left">BVRITH E-BOOK SYSTEM</div>
+        <div class="right">
+            Welcome, Harika P | Roll No.: 24WH1A05C8
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <a href="catalog.html">Catalog</a>
+            <a href="cart.html">Cart</a>
+            <a href="logout.html" class="active">Logout</a>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+
+            <div class="card" style="text-align:center;">
+                <h2>Are you sure you want to logout?</h2>
+                <br>
+
+                <a href="login.html" class="primary-btn">
+                    Yes, Logout
+                </a>
+
+                &nbsp;&nbsp;&nbsp;
+
+                <a href="catalog.html" class="danger-btn">
+                    No, Go Back
+                </a>
+            </div>
+
+        </main>
+
+    </div>
+
+    <footer>2026 BVRITH</footer>
+
+</body>
+</html>
